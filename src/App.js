@@ -1,9 +1,9 @@
-
+import CustomColection from "./components/custom-colection/custom-colection.component";
 const App = () =>{
   return (
     <div>
-    <h1>Hello</h1> 
-    
+      <CustomColection />
+      <div>End section</div>
     </div>
   );
 }
