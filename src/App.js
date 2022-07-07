@@ -1,10 +1,8 @@
-import CustomColection from "./components/custom-colection/custom-colection.component";
+import Home from "./routes/home/home.component";
+
 const App = () =>{
   return (
-    <div>
-      <CustomColection />
-      <div>End section</div>
-    </div>
+    <Home />
   );
 }
 
