@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const NavigationContainer = styled.div` 
     min-height:0;
     width: 100%;
+    position: fixed;
+    background-color:#fff;
+    top:0;
+    left:0;
+    z-index:1000;
     // display: flex;
     // justify-content: space-between;
     margin-bottom: 25px;
