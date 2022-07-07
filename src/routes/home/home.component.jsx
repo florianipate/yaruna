@@ -1,9 +1,11 @@
+import { Outlet } from 'react-router-dom';
 import CustomColection from '../../components/custom-colection/custom-colection.component';
 const Home = () =>{
   return (
     <div>
-      <CustomColection />
-      <div>End section</div>
+        <Outlet />
+        <CustomColection />
+        <div>End section</div>
     </div>
   );
 }
