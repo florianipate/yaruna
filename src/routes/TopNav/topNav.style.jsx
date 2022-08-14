@@ -46,4 +46,9 @@ export const DropdownArrow = styled.b`
     border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;`
+export const DropdownMenu = styled.ul`
+    //display: none;
+    `
+export const DropdownLink = styled.li`
+`
     

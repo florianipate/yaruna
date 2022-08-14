@@ -1,6 +1,13 @@
 import { Fragment } from "react";
 import { Outlet, Link } from 'react-router-dom';
-import { NavigationContainer, TopEsentials, LinksContainer, LinkItem, DropdownArrow } from "./topNav.style";
+import { NavigationContainer, 
+        TopEsentials, 
+        LinksContainer, 
+        LinkItem, 
+        DropdownArrow, 
+        DropdownMenu,
+        DropdownLink
+     } from "./topNav.style";
 
 const TopNav = () =>{
 
@@ -22,6 +29,14 @@ const TopNav = () =>{
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" role="img" aria-labelledby="icg7vps41w5qok2c05r03t2l8bh4ebl"><title id="icg7vps41w5qok2c05r03t2l8bh4ebl">My Account</title><g fill="none" fillRule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M12 13c4.746 0 8.86 4.029 8.996 8.742L21 22h-1.5c0-4.004-3.496-7.5-7.5-7.5-3.924 0-7.37 3.367-7.496 7.26L4.5 22H3c0-4.832 4.168-9 9-9zm0-11a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z" fill="#000"></path></g></svg>
                             Account
                             <DropdownArrow className="down-arrow"/>
+                            <DropdownMenu>
+                                <DropdownLink>
+                                    Log in
+                                </DropdownLink>
+                                <DropdownLink>
+                                    Sign up
+                                </DropdownLink>
+                            </DropdownMenu>
                         </LinkItem>
                     </LinksContainer>
                 </TopEsentials>
