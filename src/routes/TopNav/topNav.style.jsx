@@ -10,13 +10,13 @@ export const NavigationContainer = styled.div`
     z-index:1000;
     // display: flex;
     // justify-content: space-between;
-    margin-bottom: 25px;
-    border-bottom:1px solid #ececec;`
+    margin-bottom: 25px;`
 
 export const TopEsentials = styled.div`
     width:100%;
     display: flex;
-    justify-content: flex-end;`
+    justify-content: flex-end;
+    border-bottom:1px solid #ececec;`
 
 export const LinksContainer = styled.ul`
     display:flex;

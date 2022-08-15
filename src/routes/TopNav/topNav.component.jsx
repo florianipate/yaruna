@@ -41,7 +41,13 @@ const TopNav = () =>{
                 </TopEsentials>
                 {/* <div className="logo-container"><Link  to='/'>Logo</Link></div> */}
                 {/* <div><Link className="nav-container" to='/shop'>Shop</Link></div> */}
+                <div>
+                    <div>
+                        <h1>I am the Main Navigation Menu</h1>
+                    </div>
+                </div>
             </NavigationContainer>
+            
             <Outlet />
         </Fragment>
     );  
